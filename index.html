@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input id="movieName" type="text" placeholder="Enter Movie Name">
+            <button class="btn" onclick="serachMovie()">Search Movie</button>
+        </div>
+    </div>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="movie-container" id="movie-container">
+        <div class="">
+            <h2 id="title">Titles</h2>
+            <p>Year: <span id="Year"></span></p>
+            <p>Director: <span id="Director"></span></p>
+            <p>Actors: <span id="Actors"></span></p>
+            <p>BoxOffice: <span id="BoxOffice"></span></p>
+            <p>Genre: <span id="Genre"></span></p>
+            <p>Language: <span id="Language"></span></p>
+            <p>Released: <span id="Released"></span></p>
+            <p>Type: <span id="Type"></span></p>
+            <p>Writer: <span id="Writer"></span></p>
+        </div>
+        <div class="poster">
+            <div class="rating" id="rating">IMDB 8.5</div>
+            <img id="p-img" src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
